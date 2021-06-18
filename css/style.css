@@ -23,8 +23,6 @@ body {
 .contenitore-menu {
     width: 100%;
     height: 70px;
-    
-
 }
 .logo {
     width: 10%;
@@ -34,45 +32,48 @@ body {
     line-height: 70px;
     text-align: center; 
     padding: 0 10px;
-}    
- .box-nav-sx ul li {
-     display: inline;
-     list-style: none;
- }
- .box-nav-sx ul li a {
-     text-decoration: none;
-     color: black;
-     padding: 0 10px;
- } 
-
-
-
-.box-nav-sx {
+} 
+ 
+.box-nav {
     width: 30%;
     height: 70px;
     text-align: center;
-    line-height: 70px;
-    
-    
+    line-height: 70px;    
 }
-.box-nav-dx {
-    width: 30%;
+.box-nav ul li {
+    display: inline;
+    list-style: none;
+}
+
+.box-nav ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 0 10px;
+} 
+.box-nav li a:hover {
     height: 70px;
-    background-color: blanchedalmond;
-    border: 1px solid black;
-    
-    
+    border-bottom: 2px solid rgb(43, 68, 255);
 
 }
 .bottone {
     width: 10%;
     height: 70px;
-    background-color: darkblue;
-    border: 1px solid black;
     display: inline-block;
-    
+    background-color:white;
+    vertical-align: middle;
+    line-height: 70px;
+    text-align: center; 
+    padding: 0 10px;
+}
+#bottone-inizia {
+   background-color: rgb(43, 68, 255);
+   color: white;
+   text-decoration: none;
+   padding: 5px 10px;
 
 }
+
+
 /* fine Header */
 /* inizio junbotron  */
 .contenitore-banner {
