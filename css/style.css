@@ -20,19 +20,39 @@ body {
 }
 /* fine common */
 /* inizio Header  */
+.contenitore-menu {
+    width: 100%;
+    height: 70px;
+    
+
+}
 .logo {
     width: 10%;
-    height: 70px;
-    background-color: darkblue;
-    border: 1px solid black;
-    
-}
+    /* height: 70px; */
+    background-color:white;
+    vertical-align: middle;
+    line-height: 70px;
+    text-align: center; 
+    padding: 0 10px;
+}    
+ .box-nav-sx ul li {
+     display: inline;
+     list-style: none;
+ }
+ .box-nav-sx ul li a {
+     text-decoration: none;
+     color: black;
+     padding: 0 10px;
+ } 
+
+
 
 .box-nav-sx {
     width: 30%;
     height: 70px;
-    background-color: blanchedalmond;
-    border: 1px solid black;
+    text-align: center;
+    line-height: 70px;
+    
     
 }
 .box-nav-dx {
@@ -71,25 +91,20 @@ h1 {
     width: 40%;
     height: 200px;
     background-color: darkred;
-    float: left;
+    
 }
 .immagine-banner {
     width: 60%;
     height: 200px;
     background-color:darkslategrey;
-    float: left;
+    
 
 }
 
 /* fine junbotron  */
 
 /* debug */
-.contenitore-menu {
-    width: 100%;
-    height: 70px;
-    background-color: aqua;
 
-}
 .junbotron {
     width: 100%;
     height: 400px;
