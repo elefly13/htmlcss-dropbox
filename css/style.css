@@ -84,7 +84,6 @@ body {
 .contenitore-banner {
     width: 80%;
     /* height: 400px; */
- 
     margin: 0 auto ;
 }
 h1 {
@@ -94,17 +93,13 @@ h1 {
     padding-top: 60px;  
 }
 .testo-banner {
-    width: 40%;
-   
-   
-    
+    width: 40%;  
 }
 .testo-banner p {
     padding-bottom: 30px;
     padding-top: 80px;
     padding-left: 0;
     padding-right: 30px;
-
 }
 #annulla { 
     padding-bottom: 0;
@@ -116,13 +111,10 @@ h1 {
     margin: 20px 0;
     font-size: 30px;
 }
-
-
 .immagine-banner {
     width: 60%;
     height: 200px; 
     display: inline-block;   
-
 }
 .immagine-banner img {
     width: 100%; 
@@ -131,19 +123,34 @@ h1 {
 
 /* fine junbotron  */
 
-/* debug */
-
-
+/* inizio main  */
 .contenitore-sezioni {
     width: 70%;
-    height: 1000px;
+    /* height: 1000px; */
     margin: 0 auto;
     background-color: coral;
 }
+.contenitore-sezioni div {
+    width: 100%;
+    height: 200px;
+    border: 1px solid black;
+}
+/* fine main  */
+
+/* debug */
+
+
+
 .contenitore-footer {
     width: 100%;
     height: 400px;
     background-color: cornflowerblue;
 }
+.contenitore-footer div {
+    width: 100%;
+    height: 200px;
+    border: 1px solid black;
+}
+
 
 /* /debug */
