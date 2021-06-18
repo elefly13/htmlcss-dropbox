@@ -7,15 +7,55 @@
 body {
     font-family: 'Open Sans', sans-serif;
 }
-clearfix::after{
+.clearfix::after{
     content: "";
     display: table;
     clear: both;
 }
+.float-sx {
+    float: left;
+}
+.float-dx {
+    float: right;
+}
 /* fine common */
 
+.logo {
+    width: 10%;
+    height: 70px;
+    background-color: darkblue;
+    border: 1px solid black;
+    
+}
+
+.box-nav-sx {
+    width: 30%;
+    height: 70px;
+    background-color: blanchedalmond;
+    border: 1px solid black;
+    
+}
+.box-nav-dx {
+    width: 30%;
+    height: 70px;
+    background-color: blanchedalmond;
+    border: 1px solid black;
+    
+    
+
+}
+.bottone {
+    width: 10%;
+    height: 70px;
+    background-color: darkblue;
+    border: 1px solid black;
+    display: inline-block;
+    
+
+}
+
 /* debug */
-.contenitore {
+.contenitore-menu {
     width: 100%;
     height: 70px;
     background-color: aqua;
