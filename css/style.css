@@ -72,45 +72,63 @@ body {
    padding: 5px 10px;
 
 }
-
-
 /* fine Header */
+
 /* inizio junbotron  */
+.junbotron {
+    width: 100%;
+    height: 600px;
+    background-color: rgb(176, 208, 233);
+}
 .contenitore-banner {
-    width: 90%;
-    height: 400px;
-    background-color: chartreuse;
+    width: 80%;
+    /* height: 400px; */
+ 
     margin: 0 auto ;
 }
 h1 {
     width: 100%;
-    height: 50px;
-    background-color: darkgray;
-    
+    font-size: 60px;
+    font-weight: 600;
+    padding-top: 60px;  
 }
 .testo-banner {
     width: 40%;
-    height: 200px;
-    background-color: darkred;
+   
+   
     
 }
+.testo-banner p {
+    padding-bottom: 30px;
+    padding-top: 80px;
+    padding-left: 0;
+    padding-right: 30px;
+
+}
+.testo-banner p:last-child { 
+    padding-bottom: 0;
+    padding-top: 30px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
 .immagine-banner {
     width: 60%;
-    height: 200px;
-    background-color:darkslategrey;
-    
+    height: 200px; 
+    display: inline-block;   
 
+}
+.immagine-banner img {
+    width: 100%; 
+    padding-top: 80px;          
 }
 
 /* fine junbotron  */
 
 /* debug */
 
-.junbotron {
-    width: 100%;
-    height: 400px;
-    background-color: burlywood;
-}
+
 .contenitore-sezioni {
     width: 70%;
     height: 1000px;
