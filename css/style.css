@@ -306,8 +306,23 @@ h3 {
     width: 100%;
 }
 .box-riga {
-
+    width: 100%;
+    /* height: 300px; */
+    background-color:red;
+    border: 1px solid black;
 }
+.box-riga span {
+    width: calc(100% / 3);
+    height: 400px;
+    padding: 20px;
+    background-color: blanchedalmond;
+    border: 1px solid black;
+    
+}
+.box-img-sezione4 img {
+    width: 100%;
+}
+
 /* fine sezione 4  */
 
 
