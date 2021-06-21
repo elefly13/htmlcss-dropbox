@@ -184,13 +184,13 @@ h2 {
     width: 100%;
 }
 .colonna {
-    width: calc(100% / 3); 
+    width: calc((100% / 3) -  40px); 
     min-height: 1023px;     
     border: 1px solid lightgray;
 }
-/* .box-colonne .colonna:nth-child(2) {
+.box-colonne .colonna:nth-child(2) {
     margin: 0 20px;
-} */
+}
 .top-colonna {
     text-align: center;
     padding: 10px 0;
@@ -300,6 +300,19 @@ h3 {
     margin-top: 30px;
 }
 /* fine sezione 3  */
+
+/* inizio sezione 4  */
+.sezione4 {
+    width: 100%;
+}
+.box-riga {
+
+}
+/* fine sezione 4  */
+
+
+/* inizio sezione 5  */
+/* fine sezione 5 */
 
 /* fine main  */
 
