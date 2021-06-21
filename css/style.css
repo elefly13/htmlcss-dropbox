@@ -189,7 +189,7 @@ h2 {
     border: 1px solid lightgray;
 }
 .box-colonne .colonna:nth-child(2) {
-    margin: 0 20px;
+    margin: 0 60px;
 }
 .top-colonna {
     text-align: center;
@@ -326,29 +326,69 @@ h3 {
 #sottolineato {
     text-decoration: underline;
 } 
-
 /* fine sezione 4  */
 
 
 /* inizio sezione 5  */
-/* fine sezione 5 */
+#scopri {
 
+}
+/* fine sezione 5 */
 /* fine main  */
 
 /* inizio footer */
-
-
-
 .contenitore-footer {
-    width: 100%;
-    height: 400px;
+    width: 100vw;
     background-color: cornflowerblue;
 }
-.contenitore-footer div {
-    width: 100%;
-    height: 200px;
+
+/* inizio footer sezione1 loghi */
+.sezione-foot1 {
+    width: 100vw;
+    margin-top: 40px;
+}
+.box-grande-loghi {
+    position: relative;
+    width: 30vw;
+    height: 30vw;
+    background-color: chartreuse;
     border: 1px solid black;
 }
+
+.box-piccolo {
+    position: absolute;
+    width: 15vw;
+    height: 15vw;
+    border: 1px solid black;
+    background-color: blue;
+}
+
+.logo1 {
+
+}
+.logo2 {
+    top: 0;
+    right: 0;
+    
+}
+.logo3 {
+    bottom: 0%;
+    left: 0;
+}
+.logo4 {
+    bottom: 0;
+    right: 0;
+}
+.box-centrale-loghi {
+    width: 40vw;
+    height: 30vw;
+    background-color: coral;
+}
+
+
+
+
+
 
 
 /* fine footer */
