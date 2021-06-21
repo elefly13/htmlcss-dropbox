@@ -351,8 +351,8 @@ h3 {
     position: relative;
     width: 30vw;
     height: 30vw;
-    background-color: chartreuse;
-    border: 1px solid black;
+    /* background-color: chartreuse;
+    border: 1px solid black; */
 }
 
 .box-piccolo {
@@ -363,7 +363,11 @@ h3 {
     background-color: blue;
 }
 
-.logo1 {
+.logo1 img {
+    display: inline-block;
+    width: 50%;
+    fill: white;
+    text-align: center;
 
 }
 .logo2 {
@@ -382,10 +386,20 @@ h3 {
 .box-centrale-loghi {
     width: 40vw;
     height: 30vw;
-    background-color: coral;
+    background-color: lightgray;
+}
+.box-centrale-loghi img {
+    width: 30%;
+    padding-top: 4vw;
+    padding-left: 4vw;
 }
 
-
+#linea {
+    color: gray;
+    margin-top: 3vw;
+    margin-left: 4vw;
+    width: 5vw;
+}
 
 
 
