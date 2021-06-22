@@ -169,7 +169,7 @@ h1 {
     
 }
 
-h2 {
+.sezione1 h2 {
     font-size: 30px;
     padding-top: 120px;
     font-weight: 700;
@@ -249,7 +249,7 @@ h3 {
     
 }
 .spunta-lista li span{
-    padding-right: 10px;
+    padding: 0 10px;
     color: rgb(43, 68, 255);
 }
 /* .spunta-lista li::before {
@@ -379,6 +379,7 @@ h3 {
 
 .logo1 {
     background-color: rgb(146, 218, 155);
+    border: 1vw solid rgb(201, 237, 205);
 }
 .logo2 {
     top: 0;
@@ -437,5 +438,37 @@ h3 {
 }
 /* Fine footer sezione loghi  */
 
+/* inizio sezione footer celeste  */
+.sezione-foot2 {
+    width: 100vw;
+    
+    background-color: rgb(176, 208, 233);
+}
+.box-area-centrale {
+    width: 60vw;
+    height: 15vw;
+    margin: 0 auto;
+}
+.box-testo {
+    display: inline-block;
+    margin-top: 6vw;
+   
+}
+.box-area-centrale h2 {
+    display: inline-block;
+    color: rgb(106, 0, 40);
+    
+    
 
+}
+.box-area-centrale a {
+    display: inline-block;
+    margin-top: 6vw;
+    border: none;
+   
+  
+    
+}
+
+/* fine sezione footer celeste  */
 /* fine footer */
