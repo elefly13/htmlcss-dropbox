@@ -469,12 +469,9 @@ h3 {
 /* inizio sezione domande */
 .sezione-foot3 {
     width: 60%;
-
     margin: 0 auto;
     padding-top: 60px;
     padding-bottom: 60px;
-
-    /* background-color: salmon; */
 }
 .titolo {
     border-bottom: 1px solid lightgray;
@@ -497,21 +494,56 @@ h3 {
 /* inizio sezione footer link  */
 .sezione-foot4 {
     width: 100%;
-    height: 300px;
     background-color: black;
 }
 .box-liste-foot {
     width: 80%;
-    height: 300px;
-    background-color: blueviolet;
     margin: 0 auto;
 }
 .box-lista {
     width: calc(100% / 5);
-    height: 200px;
-    background-color: red;
+    min-height: 200px;
+    color: white;
     display: inline-block;
-    border: 1px solid black;
+    margin-top: 60px;
+    margin-bottom: 60px;
 }
+.titolo-sezione {
+    padding-bottom: 20px;
+}
+.box-lista ul li {
+    list-style: none;
+    padding-bottom: 10px;
+}
+.box-lista ul li a {
+    text-decoration: none;
+    color: white;
+}
+#menu-dropbox {
+
+}
+
+
 /* fine sezione footer link  */
+
+/* inizio sezione cambio lingua */
+.sezione-foot5 {
+    width: 100%;
+ 
+    background-color: black;
+}
+.box-centrale {
+    width: 80%;
+    margin: 0 auto;
+}
+.box-cambio-lingua {
+    width: 130px;
+    height: 150px;
+    border-top: 1px solid grey;
+}
+.box-riga-lingua {
+    color: grey;
+    padding: 50% 0;
+}
+/* fine sezione cambio lingua */
 /* fine footer */
