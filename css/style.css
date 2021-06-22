@@ -340,7 +340,7 @@ h3 {
 /* fine main  */
 
 /* inizio footer */
-.contenitore-footer {
+.debug .contenitore-footer {
     width: 100vw;
     background-color: cornflowerblue;
 }
@@ -457,18 +457,58 @@ h3 {
 .box-area-centrale h2 {
     display: inline-block;
     color: rgb(106, 0, 40);
-    
-    
-
 }
 .box-area-centrale a {
     display: inline-block;
     margin-top: 6vw;
-    border: none;
-   
-  
-    
+    border: none; 
 }
 
 /* fine sezione footer celeste  */
+
+/* inizio sezione domande */
+.debug .sezione-foot3 {
+    width: 60%;
+    height: 300px;
+    margin: 0 auto;
+    background-color: salmon;
+}
+
+/* fine sezione domande */
+
+/* inizio sezione footer link  */
+.debug .sezione-foot4 {
+    width: 100%;
+    height: 300px;
+    background-color: black;
+}
+.debug .titolo {
+    border: 1px solid black;
+}
+.debug .box-domanda {
+    width: 100%;
+   
+    border: 1px solid black;
+}
+.debug .domanda {
+    border: 1px solid black;
+}
+.debug .freccia-apri {
+    border: 1px solid black;
+}
+}
+/* fine sezione footer link  */
+.debug .box-liste-foot {
+    width: 80%;
+    height: 300px;
+    background-color: blueviolet;
+    margin: 0 auto;
+}
+.debug .box-lista {
+    width: calc(100% / 5);
+    height: 200px;
+    background-color: red;
+    display: inline-block;
+    border: 1px solid black;
+}
 /* fine footer */
