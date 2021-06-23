@@ -34,8 +34,15 @@
                 <a href="*" class="bottone-base">Inizia</a>
             </div>
             <div class="box-nav float-dx">
-                <ul>
-                    <li><a href="*">Supporto</a></li>
+                <ul id="menu">
+                    <li id="sottomenu"><a href="#">Supporto</a>
+                       <ul>
+                           <li><a href="">Link 1</a></li> 
+                           <li><a href="">Link 2</a></li>
+                       </ul>
+                    </li>
+
+        
                     <li><a href="*">Contatta l'ufficio vendite</a></li>
                     <li><a href="*">Accedi</a></li>
                 </ul>
@@ -54,10 +61,15 @@
                     sono accessibili dallo stesso posto. Dropbox Bussines è più di uno 
                     spazio di archiviazione sicuro: è un modo intelligente e integrato
                     per ottimizzare il flusso di lavoro esistente.
+                    Dropbox Bussines è più di uno 
+                    spazio di archiviazione sicuro: è un modo intelligente e integrato
+                    per ottimizzare il flusso di lavoro esistente.
+                   
                 </p>
                 <a href="*" class="bottone-base">Inizia la tua prova gratuita</a>
                 <p id="annulla">Annulla in qualsiasi momento</p>
-                <i id="freccia" class="fas fa-arrow-down"></i>
+                <a href="#ancora"><i id="freccia" class="fas fa-arrow-down"></i></a>
+                
 
 
             </div>
@@ -73,7 +85,7 @@
     <!-- fine sezione banner  -->
     <main class="contenitore-sezioni">
         <!-- inizio sezione1 -->
-        <div class="sezione1">
+        <div class="sezione1" id="ancora">
             <h2>Trova il piano Dropbox Bussiness che fa per te</h2>
             <div class="box-radio">
                 <div class="radio" id="cerchio-blu"></div>
@@ -85,7 +97,7 @@
         <!-- fine sezione1  -->
 
         <!-- inizio sezione2 -->
-        <div class="sezione2">
+        <div class="sezione2 ">
             <div class="box-colonne clearfix">
                 <div class="colonna float-sx">
                     <div class="top-colonna">
@@ -95,9 +107,14 @@
                         <h3>Professional</h3>
                         <div class="prezzo">19,99€</div>
                         <div class="periodo">/mese</div>
-                        <div class="utente"><i class="far fa-user"></i>1 Utente</div>
-                        <div class="spazio"><i class="far fa-folder"></i>3 TB di spazio di archiviazione sicuro</div>
-                        <div class="funzioni"><i class="fas fa-pencil-alt"></i>Funzioni di produttività premium e condivisione file semplice e sicura</div>
+
+                        <ul class="icone-lista">
+                            <span><i class="far fa-user"></i></span><li class="utente">1 Utente</li>
+                            <span><i class="far fa-folder"></i></span><li class="spazio">3 TB di spazio di archiviazione sicuro</li>
+                            <span><i class="fas fa-pencil-alt"></i></span><li class="funzioni">Funzioni di produttività premium e condivisione file semplice e sicura</li>
+
+                        </ul>
+                        
                         <div class="bottone-colonna"><a href="*" class="bottone-base">Prova gratis per 30 giorni</a></div>
                         <div><span class="oppure">oppure</span><a href="*">acquista ora</a></div>
                         <!-- inizio Punti lista -->
@@ -348,7 +365,14 @@
         <div class="sezione-foot3">
             <h2 class="titolo">Domande frequenti</h2>
             <div class="box-domanda clearfix">
-                <h5 class="domanda float-sx">Qual'è la differenza tra Dropbox Bussines Standard e Dropbox Bussines Advanced?</h5>
+                <div class="domanda-risposta float-sx">
+                    <h5 class="domanda">Qual'è la differenza tra Dropbox Bussines Standard e Dropbox Bussines Advanced?</h5>
+                    <div class="risposta"> 
+                        <p>Questa è la risposta alla tua domanda</p> 
+                    </div>
+
+                </div>
+                
                 <div class="freccia-apri float-dx">
                     <i class="fas fa-angle-down"></i>
                 </div>
@@ -380,7 +404,7 @@
             <div class="box-liste-foot clearfix">
                 <div class="box-lista float-sx">
                     <h4 class="titolo-sezione">Dropbox</h4>
-                    <ul id="menu-dropbox">
+                    <ul>
                         <li><a href="">Applicazione desktop</a></li>
                         <li><a href="">Perchè Dropbox</a></li>
                         <li><a href="">Piani</a></li> 
@@ -390,7 +414,7 @@
                 </div>
                 <div class="box-lista float-sx">
                     <h4 class="titolo-sezione">Prodotti</h4>
-                    <ul id="menu-dropbox">
+                    <ul>
                         <li><a href="">Applicazione desktop</a></li>
                         <li><a href="">Perchè Dropbox</a></li>
                         <li><a href="">Piani</a></li> 
@@ -400,7 +424,7 @@
                 </div>
                 <div class="box-lista float-sx">
                     <h4 class="titolo-sezione">Azienda</h4>
-                    <ul id="menu-dropbox">
+                    <ul>
                         <li><a href="">Applicazione desktop</a></li>
                         <li><a href="">Perchè Dropbox</a></li>
                         <li><a href="">Piani</a></li> 
@@ -410,7 +434,7 @@
                 </div>
                 <div class="box-lista float-sx">
                     <h4 class="titolo-sezione">Supporto</h4>
-                    <ul id="menu-dropbox">
+                    <ul>
                         <li><a href="">Applicazione desktop</a></li>
                         <li><a href="">Perchè Dropbox</a></li>
                         <li><a href="">Piani</a></li> 
@@ -420,7 +444,7 @@
                 </div>
                 <div class="box-lista float-sx">
                     <h4 class="titolo-sezione">Community</h4>
-                    <ul id="menu-dropbox">
+                    <ul>
                         <li><a href="">Applicazione desktop</a></li>
                         <li><a href="">Perchè Dropbox</a></li>
                         <li><a href="">Piani</a></li> 
